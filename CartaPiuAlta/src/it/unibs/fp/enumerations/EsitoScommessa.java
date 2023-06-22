@@ -6,7 +6,8 @@ public enum EsitoScommessa {
 	PATTA("Scommessa Patta");
 	
 	private String esito;
-
+	
+	//puo' essere solo private
 	private EsitoScommessa(String esito) {
 		this.esito = esito;
 	}

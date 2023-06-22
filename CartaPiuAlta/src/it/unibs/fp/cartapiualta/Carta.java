@@ -2,7 +2,12 @@ package it.unibs.fp.cartapiualta;
 
 import it.unibs.fp.interfaces.ISemeCarta;
 import it.unibs.fp.interfaces.IValoreCarta;
-
+/**
+ * 
+ * @author Molla Blen Zena
+ * Questa classe rappresenta l'unita' base costituente il gioco, contiene i metodi 
+ * getValore, getSeme, compareTo e toString
+ */
 public class Carta {
 	private ISemeCarta semeCarta;
 	private IValoreCarta valoreCarta;
